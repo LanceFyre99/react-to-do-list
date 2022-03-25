@@ -1,12 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import React from 'react';
+import ToDoList from './Components/ToDoList'
 
 export function App() {
   return (
     <>
-      <NxWelcome title="to-do" />
-      <div />
+      <h1>TO-DO LIST</h1>
+      <em>Because you can't remember things on your own.</em>
+      <br></br><br></br>
+      <ToDoList />
     </>
   );
 }
